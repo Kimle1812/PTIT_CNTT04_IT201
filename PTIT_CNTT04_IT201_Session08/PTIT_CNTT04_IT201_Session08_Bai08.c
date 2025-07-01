@@ -21,6 +21,11 @@ int main(){
     scanf("%d", &k);
     linearSearch(arr, n, k);
     insertionSort(arr, n);
+    printf("Mang sau khi sap xep la: \n");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
     binarySearch(arr, n, k);
     free(arr);
     return 0;
