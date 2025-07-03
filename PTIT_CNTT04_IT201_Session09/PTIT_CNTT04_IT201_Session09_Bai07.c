@@ -52,7 +52,7 @@ void printList(Node* head) {
 
 Node* insertAt(Node* head, int value, int position) {
     if (position > getLength(head) || position < 0) {
-        printf("Invalid position");
+        printf("Vi tri khong hop le");
         return head;
     }
     if (position == 0) {
