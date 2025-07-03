@@ -59,7 +59,7 @@ void printList(Node* head) {
 Node* deleteAt(Node* head, int index) {
     int length = getLength(head);
     if (index >= length || index < 0) {
-        printf("Index is out of range\n");
+        printf("Vi tri khong hop le\n");
         return head;
     }
     if (index == 0) {
